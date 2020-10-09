@@ -1,3 +1,6 @@
+// GAME 2001 - Assignment 1
+// Submitted by Shane Holloway - 101273911
+
 #include <iostream>
 #include "Array.h"
 #include "UnorderedArray.h"
