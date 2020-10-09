@@ -13,7 +13,7 @@ public:
 		{
 			m_maxSize = size;
 			m_array = new T[m_maxSize];	// Dynamically allocated new array
-			memeset(m_array, 0, sizeof(T) * m_maxSize);
+			memset(m_array, 0, sizeof(T) * m_maxSize);
 
 			m_growSize = ((growBy > 0) ? growBy : 0);
 		}
